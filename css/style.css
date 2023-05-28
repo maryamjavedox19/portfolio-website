@@ -361,8 +361,8 @@ h3.my-profession {
   width: 80px;
   border-left: 10px solid var(--skin-color);
   border-top: 10px solid var(--skin-color);
-  left: 15px;
-  top: 0;
+  left: 20px;
+  top: -40px;
 }
 
 .home .home-img::after {
@@ -372,8 +372,8 @@ h3.my-profession {
   width: 80px;
   border-right: 10px solid var(--skin-color);
   border-bottom: 10px solid var(--skin-color);
-  right: -15px;
-  bottom: 0;
+  right: 20px;
+  bottom: -40px;
 }
 
 .home .home-img img {
