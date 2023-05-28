@@ -5,12 +5,19 @@ var typed = new Typed(".typing", {
     "Web",
     "Web Designer",
     "Web Developer",
-    "Graphic Designer",
-    "Content Creator",
+    "Writer",
   ],
   typeSpeed: 100,
   BackSpeed: 60,
   loop: true,
+});
+
+//download button
+document.getElementById("download-cv-button").addEventListener("click", function() {
+  var link = document.createElement("a");
+  link.href = "CV.pdf"; 
+  link.download = "CV.pdf"; 
+  link.click();
 });
 
 // Aside
