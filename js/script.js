@@ -18,6 +18,12 @@ document.getElementById("download-cv-button").addEventListener("click", function
   link.download = "CV.pdf"; 
   link.click();
 });
+document.getElementById("download-cv-button2").addEventListener("click", function() {
+  var link2 = document.createElement("a");
+  link2.href = "CV.pdf"; 
+  link2.download = "CV.pdf"; 
+  link2.click();
+});
 
 // Aside
 const nav = document.querySelector(".nav"),
